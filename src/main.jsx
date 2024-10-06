@@ -41,6 +41,11 @@ const router = createBrowserRouter([
         element:<BookDetail></BookDetail>,
         loader: ()=> fetch('/fakedata.json')
       },
+      {
+        path:'/contact',
+        element:<COntact></COntact>,
+      },
+
 
 
       
